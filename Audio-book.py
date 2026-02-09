@@ -6,7 +6,7 @@ from gtts import gTTS
 import PyPDF2
 
 #Open file Path
-pdf_File = open('name.pdf', 'rb') 
+pdf_File = open('sample.pdf', 'rb') 
 
 #Create PDF Reader Object
 pdf_Reader = PyPDF2.PdfFileReader(pdf_File)
